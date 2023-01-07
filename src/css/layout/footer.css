@@ -1,7 +1,10 @@
 .container {
   display: block;
-  margin-top: 5rem;
-  padding: 3rem;
+  margin-top: 100px ;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 123px;
   background-color: #D2C6FF;
   height: 375px;
   width: 375px;
@@ -16,17 +19,22 @@
 
 .footer_start {
   display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer_start2 {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .footer_info {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 3rem;
-  margin-bottom: 1rem;
-  
+  gap: 49px;
+  margin-bottom: 25px;
 }
 
 .profil {
@@ -34,14 +42,26 @@
   display: flex;
 }
 
+.icon_profil {
+  width: 24px;
+  height: 24px;
+}
+
 .mail {
   content: "";
   display: flex;
+  width: 24px;
+  height: 22px;
+}
+
+.icon_profil {
+  width: 24px;
+  height: 22px;
 }
 
 .ligne_small {
   height: 1px;
-  width: 80px;
+  width: 125px;
   background-color: black;
 }
 
@@ -53,10 +73,21 @@
 
 .lien_site {
   text-align: center;
-  font-size: 10px;
+  font-size: var(--footer-droits);
+  font-family: var(--font-footer-droits);
   align-items: center;
 }
 
-.item_text {
+.item_text_profil {
   margin-left: 12px ;
+  font-family: 'mulish';
+  font-size: var(--footer-createur);
+  width: 87px;
+}
+
+.item_text_mail {
+  margin-left: 12px ;
+  font-family: 'mulish';
+  font-size: var(--footer-createur);
+  width: 87px;
 }

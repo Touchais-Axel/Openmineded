@@ -33,6 +33,11 @@
 --glossary-def: 16px;
 --body-text-bold: 16px;
 
+/* Polices de caractère */
+--font-footer-openmineded: 'Inter';
+--font-footer-createur: 'mulish';
+--font-footer-droits: 'mulish';
+
 /* Effect styles */
 --shadow-btn-next-dm:  0px 10px 15px rgba(210, 198, 255, 1);
 --menu-shadow:  0px 10px 20px rgba(0, 0, 0, 0.4);
@@ -40,4 +45,18 @@
 --shadow-button-next-wm:  0px 5px 69px rgba(29, 38, 57, 0.44);
 --shadow-btn-wm-lang:  0px 0px 20px rgba(91, 73, 161, 1);
 --shadow-btn-dm-lang:  0px 0px 20px rgba(210, 198, 255, 1);
+
+
+/* Espaces */
+--space1x: 8px;
+--space2x: 16px;
+--space3x: 24px;
+--space4x: 48px;
+--space5x: 80px;
+
+--space1y: 8px;
+--space2y: 16px;
+--space3y: 26px;
+--space4y: 48px;
+--space5y: 80px;
 }
