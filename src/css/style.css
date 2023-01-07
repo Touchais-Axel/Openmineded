@@ -35,9 +35,9 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 
 /* Components */
 @import "component/menu.css";
-@import "component/carrousel_home.css";
+@import "component/carousel_home.css";
 @import "component/contact.css";
-@import "component/carrousel_menu.css";
+@import "component/carousel_menu.css";
 
 
 @import "src/js/contact.js";
