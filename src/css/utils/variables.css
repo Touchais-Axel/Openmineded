@@ -1,0 +1,35 @@
+:root {
+
+  /* Color styles */
+  --lavender-blue: rgba(210, 198, 255, 1);
+  --impure-black: rgba(5, 5, 5, 1);
+  --impure-white: rgba(254, 254, 254, 1);
+  --violet-dark: rgba(47, 36, 88, 1);
+  --violet-bouton-dark: rgba(91, 73, 161, 1);
+  
+  /* Text-size styles */
+  --h2-bold: 25px;
+  --h3-bold: 20px;
+  --h3-bold-maj: 20px;
+  --body-text-regular: 16px;
+  --body-text-light: 16px;
+  --body-intro-light-italic: 14px;
+  --body-footer-13px: 13px;
+  --body-footer-12px: 12px;
+  --body-footer-10px: 10px;
+  --legend: 14px;
+  --intro-home-extraitalic: 16px;
+  --preview-article-home: 14px;
+  --liste-article-caroussel: 14px;
+  
+  /* Effect styles */
+  --shadow-button:  0px 10px 15px rgba(210, 198, 255, 1);
+  
+  
+  /* Espaces */
+  --space1x: 8px;
+  --space2x: 16px;
+  --space3x: 24px;
+  --space4x: 48px;
+  --space5x: 80px;
+  }
