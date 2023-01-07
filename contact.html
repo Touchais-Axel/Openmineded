@@ -11,3 +11,177 @@
 
 
 </head>
+
+<body>
+
+  <header class="header_fr">
+      <div class="bar">
+          <img src="public/icons/moon-dark.svg" alt="logo dark mode" />
+          <img src="public/icons/en-dark.svg" alt="mode anglais" />  
+      </div>
+  </header>
+
+  <nav class="navigation navigation--inline">
+      <ul class="bar-menu">
+        <li>
+          <a href="mémoire-sémantique.html">
+            <img src="public/icons/bonus.png" alt="icône de bous">
+            <span class="name">Bonus</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="public/icons/articles.png" alt="icône des articles">
+            <span class="name">Articles</span>
+          </a>
+        </li>
+        <li>
+          <a href="accueil.html">
+            <img src="public/icons/home.png" class="icon-home" alt="icône de l'accueil">
+          </a>
+        </li>
+        <li>
+          <a href="contact.html">
+            <img src="public/icons/contact.png" alt="icône de contact">
+            <span class="name">Contact</span>
+          </a>
+        </li>
+        <li>
+          <a href="autres-projets.html">
+            <img src="public/icons/projets.png" alt="icône des autres projets">
+            <span class="name">Projets</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  <main class="margin">
+
+  <h2>Entre vous et moi</h2>
+
+  <h3>Qui suis-je ?</h3>
+
+  <p>Je suis Axel Touchais et j’ai 20 ans. Étudiant en première année de BUT, Métiers du Multimédia et de l’Internet à Montbéliard. J’ai créé ce site de A à Z dans le cadre de mon projet individuel de premier semestre. 
+      L’exercice consistait à créer un site web, optimisé pour iPhoneX, sur un sujet assez libre: écrire pour notre nous du futur. Nous devions prendre des notes pour plus tard, au sujet d’un lieu, d’une musique, d’un film. 
+      L’objectif étant de laisser une trace, qui nous touchera nous dans quelques années, mais qui touchera également des personnes dont les centres d’intérêts convergent avec les notres.</p>
+
+  <h3>Me contacter</h3>
+
+  <p>Si vous avez des questions ou que vous souhaitez me contacter, veuillez remplir le formulaire ci-dessous.</p>
+
+
+      <form class="form-contact">
+          <div class="text">
+              <div>
+                  <label for="name">Nom*</label>
+              </div>
+              <input type="text" id="name" name="name">
+          </div>
+
+          <div class="text">
+              <div>
+                 <label for="fname">Prénom</label>
+              </div>
+              <input type="text" id="firstname" name="firstname">
+          </div>
+        
+          <div class="text">
+              <div>
+                  <label for="emailAddress">Adresse mail*</label>
+              </div>
+              <input type="text" id="emailAddress" name="emailAddress">
+          </div>
+    
+          <div class="text">
+              <div>
+                  <label for="objet">Objet</label>
+              </div>
+              <input type="objet" type="objet" name="objet" >
+          </div>
+     
+          <div class="text">
+              <div>
+                  <label for="message">Message*</label>
+              </div>
+              <input class="message" id="message" name="message"></textarea>
+          </div>
+          
+       <div class="obligatoire">* Ces champs sont obligatoires.</div>
+
+
+
+
+
+
+
+       
+      <div class="captcha">
+          <div class="check">
+              <div class="spinner">
+                  <label>
+                      <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+                      <span class="checkmark"><span>&nbsp;</span></span>
+                  </label>
+              </div>
+          </div>
+          <div class="text2">
+              I'm not a robot
+          </div>
+          <div class="logo">
+              <img src="public/img/captcha.jpg" alt="captcha" >
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+        <button type="submit" class="bouton-envoyer" value="Envoyer">ENVOYER</button>
+      </form>
+  
+
+  </main>
+
+  <footer class="container">
+      <div class="footer_start">
+          <img src="public/icons/logo.png" class="logo_footer" alt="logi du site" />
+          <h2>Openminded.</h2>
+      </div>
+
+      <div class="footer_start">
+          <div class="ligne_small"></div>
+          <h5>Créateur</h5>
+          <div class="ligne_small"></div>
+      </div>
+
+      <div class="footer_info">
+          <div class="profil">
+              <img src="public/icons/profil.svg" alt="icon de profil">
+              <h4 class="item_text">Axel Touchais</h4>
+          </div>
+
+          <div class="mail">
+              <img src="public/icons/mail.svg" alt="icon de mail">
+              <h4 class="item_text">axel.touchais@
+                  edu.univ-fcomte.fr</h4>
+          </div>
+      </div>
+
+      <div class="ligne_tall"></div>
+
+      <h5>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</h5>
+     <div class="lien_site">
+          <span>© 2023 
+              <a href="https://Openminded.fr" class="hover:underline"> Openminded. </a> | Tous droits réservés.
+          </span>
+     </div>
+  </footer>
+  
+</body>
+
+</html>
