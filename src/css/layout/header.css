@@ -1,0 +1,9 @@
+.header_fr {
+  z-index: 10;
+  padding: 2rem;
+}
+
+.bar {
+  display: flex;
+  gap: 75%;
+}
