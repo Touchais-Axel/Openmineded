@@ -6,10 +6,11 @@
 
 
 .navigation {
+  position: fixed;
+  z-index: 50;
   background-color: #D2C6FF;
   border-radius: 2rem;
   box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.3);
-  position: fixed;
   top: 712px;
   margin: 0.5rem;
   height: 90px;

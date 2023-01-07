@@ -1,10 +1,15 @@
 body { 
-  background: linear-gradient(to bottom, #D2C6FF, white);
+  background: var(--lavender-gradient);
   color: black;
+  font-family: var();
 }
 
-.corps {
-margin-top: -6rem;
+.content {
+  background-color: var(--impure-white);
+  padding-top: 40px;
+  margin-top: 365px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 * p {
@@ -16,6 +21,8 @@ margin-bottom: 2rem;
 * h1 {
 font-family: 'Inter';
 font-size: 40px;
+margin-top: 25px;
+margin-bottom: 15px;
 }
 
 * h2 {
@@ -53,7 +60,7 @@ font-size: 14px;
 
 
 .footer_openmineded {
-  font-family: var(--font-footer-openmineded);
+  font-family: var(--font-inter);
   font-size: var(--footer-openmineded);
 }
 * blockquote {
@@ -144,4 +151,8 @@ border: none;
 
 .button_article {
 margin-left: 5rem;
+}
+
+.logo_home{
+padding-top: 60px;
 }

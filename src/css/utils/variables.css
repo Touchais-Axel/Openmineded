@@ -1,6 +1,7 @@
 :root {
 
 /* Color styles */
+--lavender-gradient: linear-gradient(to bottom, #D2C6FF, white);
 --lavender-blue: rgba(210, 198, 255, 1);
 --impure-black: rgba(5, 5, 5, 1);
 --impure-white: rgba(254, 254, 254, 1);
@@ -34,9 +35,9 @@
 --body-text-bold: 16px;
 
 /* Polices de caractère */
---font-footer-openmineded: 'Inter';
---font-footer-createur: 'mulish';
---font-footer-droits: 'mulish';
+--font-inter: 'Inter';
+--font-mulish: 'mulish';
+--font-montserrat: 'montserrat';
 
 /* Effect styles */
 --shadow-btn-next-dm:  0px 10px 15px rgba(210, 198, 255, 1);

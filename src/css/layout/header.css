@@ -1,9 +1,13 @@
 .header_fr {
-  z-index: 10;
-  padding: 2rem;
-}
+  position: absolute;
+  z-index: 30;
+  top: 0px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 35px;
+  }
 
 .bar {
   display: flex;
-  gap: 75%;
+  gap: 235px;
 }

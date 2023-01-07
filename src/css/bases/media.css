@@ -24,16 +24,16 @@ color: var(--gray-600);
 .illustration_article {
 display: block;
 margin: auto;
-margin-top: 3rem;
-margin-bottom: 1rem;
+margin-top: 50px;
+margin-bottom: 10px;
 }
 
 /* Hero images des articles */
 
 .img_article {
-z-index: -5;
-top: -7rem;
-position: relative;
+  z-index: -5;
+  top: 0px;
+  position: absolute;
 }
 
 /* illustration dans mémoire sémantique */
@@ -41,5 +41,5 @@ position: relative;
 .illustration_memoire {
 display: block;
 margin: auto;
-margin-bottom: 3rem;
+margin-bottom: 48px;
 }

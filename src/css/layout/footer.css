@@ -74,7 +74,7 @@
 .lien_site {
   text-align: center;
   font-size: var(--footer-droits);
-  font-family: var(--font-footer-droits);
+  font-family: var(--font-montserrat);
   align-items: center;
 }
 
