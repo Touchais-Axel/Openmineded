@@ -59,18 +59,20 @@ font-size: 12px;
 margin-bottom: 3rem;
 }
 
-* strong {
-font-weight: bold;
-font-family: 'Montserrat';
-}
-
 .margin {
-margin-left: 2rem;
-margin-right: 2rem;
+margin-left: 30px;
+margin-right: 30px;
 }
 
-.underline {
+/* Style des textes */
+
+.underline_italic {
 text-decoration: underline;
+font-style: italic;
+}
+
+.bold {
+font-weight: var(--body-text-bold);
 }
 
 /* annuler la mise en forme des liens */
@@ -84,6 +86,7 @@ color: #000000;
 ul {
 list-style: none;
 font-family: 'mulish';
+margin-right: 30px;
 }
 
 li {
@@ -108,10 +111,6 @@ margin-bottom: 3rem;
 }
 
 /* Mémoire sémantique */
-
-.section-1 {
-margin-bottom: 5rem;
-}
 
 .separation {
 display: flex;
