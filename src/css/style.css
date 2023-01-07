@@ -1,0 +1,45 @@
+/*   
+Le fichier style.css aggrège l'ensemble du code css, 
+découpé en différents fichiers correspondant à aux composants de l'interface
+La règle @import permet d'importer ici tous les fichiers css utilisés.
+  1. les polices via Google Font
+  2. Les libraries (Vendors)
+  3. Les variables (Utils)
+  4. Les règles générales (Base)
+  5. Les règles de composition (Layout)
+  6. Les composant d'interface (Components)
+*/
+
+/* Code fourni par Google Font pour l'utilisation de ces polices de caractères */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Work+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mulish:wght@300&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mulish:wght@500&family=Work+Sans&display=swap');
+
+/* Vendors */
+@import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variables.css";
+
+/* Bases */
+@import "bases/main.css";
+@import "bases/media.css";
+
+/* Layout */
+@import "layout/français/footer-fr.css";
+@import "layout/français/header-fr.css";
+@import "layout/anglais/footer-en.css";
+@import "layout/anglais/header-en.css";
+
+
+
+/* Components */
+@import "component/menu.css";
+@import "component/carrousel_home.css";
+@import "component/contact.css";
+@import "component/carrousel_menu.css";
+
+
+@import "src/js/contact.js";
