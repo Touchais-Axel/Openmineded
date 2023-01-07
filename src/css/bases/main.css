@@ -1,0 +1,143 @@
+body { 
+  background: linear-gradient(to bottom, #D2C6FF, white);
+  color: black;
+}
+
+.corps {
+margin-top: -6rem;
+}
+
+* p {
+font-family: 'mulish';
+font-size: 16px;
+margin-bottom: 2rem;
+}
+
+* h1 {
+font-family: 'Inter';
+font-size: 40px;
+}
+
+* h2 {
+font-family: 'Montserrat';
+font-size: 22px;
+text-align: center;
+margin-bottom: 3rem;
+}
+
+* h3 {
+font-family: 'Montserrat';
+font-size: 20px;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+* h4 {
+font-family: 'mulish';
+font-size: 13px;
+font-weight: lighter;
+}
+
+* h5 {
+font-family: 'mulish';
+font-weight: lighter;
+font-size: 12px;
+text-align: center;}
+
+* h6 {
+text-align: center;
+font-family: 'mulish';
+font-weight: lighter;
+font-size: 14px;
+}
+
+* blockquote {
+font-family: 'mulish';
+font-weight: lighter;
+text-align: center;
+font-size: 12px;
+margin-bottom: 3rem;
+}
+
+* strong {
+font-weight: bold;
+font-family: 'Montserrat';
+}
+
+.margin {
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.underline {
+text-decoration: underline;
+}
+
+/* annuler la mise en forme des liens */
+
+a {
+font-family: 'mulish';
+text-decoration: none;
+color: #000000;
+}
+
+ul {
+list-style: none;
+font-family: 'mulish';
+}
+
+li {
+margin-bottom: 4%;
+}
+
+/* Accueil */
+
+.hero_accueil {
+text-align: center;
+}
+
+.chapo_text {
+text-align: center;
+margin-bottom: 4rem;
+}
+
+.down {
+display: block;
+margin: auto;
+margin-bottom: 3rem;
+}
+
+/* Mémoire sémantique */
+
+.section-1 {
+margin-bottom: 5rem;
+}
+
+.separation {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 4%;
+}
+
+.ligne-title {
+height: 2px;
+width: 50%;
+background-color: #000000;
+}
+
+
+/* Articles */
+
+.proposition_article {
+background-color: #D2C6FF;
+padding-right: 1rem;
+padding-left: 1rem;
+border-radius: 1rem;
+box-shadow: var(--shadow-button);
+border: none;
+}
+
+.button_article {
+margin-left: 5rem;
+}
