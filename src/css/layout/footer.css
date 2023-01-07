@@ -3,13 +3,14 @@
   margin-top: 5rem;
   padding: 3rem;
   background-color: #D2C6FF;
-  padding-bottom: 14rem;
+  height: 375px;
+  width: 375px;
 
 }
 
 .logo_footer {
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
   margin-bottom: 1rem;
 }
 
