@@ -1,0 +1,81 @@
+.form-contact {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.text {
+  margin-top: 4%;
+  font-family: 'mulish';
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.message {
+  margin-top: 3%;
+  width: 100%;
+  height: 12rem;
+  border: 0.5%;
+  border-color: #D2C6FF;
+  border-radius: 0.5rem;
+ 
+}
+
+input {
+  width: 100%;
+  height: 2rem;
+  border: 0.2%;
+  border-color: #D2C6FF;
+  border-radius: 0.5rem;
+  margin-top: 3%;
+}
+
+.bouton-envoyer {
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: black;
+  background-color: #D2C6FF;
+  border: none;
+  box-shadow: var(--shadow-button);
+  font-family: 'mulish';
+  margin-left: 4.3rem;
+  border-radius: 0.2rem;
+}
+
+
+.captcha {
+background-color:#f9f9f9;
+border:2px solid #d3d3d3;
+border-radius:5px;
+color:#4c4a4b;
+display:flex;
+justify-content:center;
+align-items:center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 25%;
+  margin-left: 3rem;
+}
+
+.text2 {
+  font-size: 12px;
+  font-family: 'mulish';
+  margin-bottom: 2rem;
+  margin-left: 4%;
+  margin-top: 10%;
+}
+
+.check {
+  display: flex;
+  margin-top: 6%;
+}
+
+.obligatoire {
+  font-size: 12px;
+  font-family: 'mulish';
+  margin-bottom: 2rem;
+}
