@@ -4,61 +4,41 @@
   }
 
 .menu {
-background-color: #D2C6FF;
+background-color: var(--lavender-blue);
 display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-overflow-x: hidden;
 text-align: center;
-height: 100vh;
-font-size: 20px;
-position: relative;
-
-
-}
-
-.menu ul {
-  list-style-type: none;
-
-  display: flex;
-  gap: 7rem;
-}
-
-
-.menu ul :first-child {
-padding-top: 30px;
-font-family: 'Mulish';
-font-size: 19.5px;
-}
-
-
-.menu p:last-of-type {
-background: center / contain no-repeat url("https://svgsilh.com/png-512/306433.png");
-text-indent: -9999%;
-}
-
-
-.menu {
 visibility: hidden;
 position: fixed;
 top: 0;
 left: 0;
 right: 0;
-bottom: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-
 }
 
 .menu-open .menu {
 visibility: visible;
 transform: translateX(0);
-height: 10rem;
-top: 27rem;
+height: 160px;
+top: 510px;
 background-color: #D2C6FF;
-border-radius: 2rem;
-margin: 2%;
+border-radius: 20px;
+margin: 10px;
 }
 
+.bg-carousel {
+  background-color: white;
+  border-radius: 15px;
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.img-caroussel-menu {
+  margin-top: 15px;
+  width: 100px;
+  box-shadow: var(--carousel-articles-shadow);
+}
+
+.name-carousel-menu {
+margin-bottom: 20px;
+}

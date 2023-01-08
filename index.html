@@ -38,7 +38,10 @@
                   <li class="carousel__slide">
                     <a href="article1.html">
                     <div class="carousel__snapper">
-                      L’internat, une prison… de bons souvenirs
+                      <div class="bg-carousel">
+                        <img src="public/img/img_article1.webp" class="img-caroussel-menu" >
+                        <span class="name-carousel-menu">L’internat, une prison… de bons souvenirs</span>
+                      </div>
                     </a>
                     </div>
                   </li>
@@ -110,10 +113,10 @@
   </div>
 
 
-  <img src="public/icons/down.svg" class="down" alt="flèche du bas" />
+  <img src="public/icons/down.svg" class="down2" alt="flèche du bas" />
 
   <div class="carouselzone">
-    <a href="#" class="lien-article"><img src="public/img/preview_article1.webp" id="carouselimg" /></a>
+    <a href="article1.html" class="lien-article"><img src="public/img/preview_article1.webp" id="carouselimg" /></a>
     <a id="mobileNavButton" onclick="carouselBefore()">
       <img src="public/icons/left.svg" />
     </a>
@@ -123,8 +126,13 @@
       <img src="public/icons/right.svg" />
     </a>
 
+ <a href="article1.html" class="lien-article">
+<div>
     <p id="carouseltitle">Titre carousel 1</p>
     <p id="carouseltext">Texte carousel 1</p>
+</div>
+</a>
+
   </div>
 
   </main>
@@ -170,6 +178,7 @@
 <script>
   var carouselcurrent = 1;
 
+  var carousellink = ['article1.html', 'article2.html', 'article3.html', 'Lien carousel 4', 'Lien carousel 5', 'Lien carousel 6'];
   var carouseltitle = ['Texte carousel 1', 'Texte carousel 2', 'Texte carousel 3', 'Texte carousel 4', 'Texte carousel 5', 'Texte carousel 6'];
   var carouseltext = ['Texte carousel 1', 'Texte carousel 2', 'Texte carousel 3', 'Texte carousel 4', 'Texte carousel 5', 'Texte carousel 6'];
 
@@ -182,6 +191,10 @@
     document.getElementById("carouselimg").src="public/img/preview_article"+carouselcurrent+".webp";
     document.getElementById("carouseltitle").innerText=carouseltitle[carouselcurrent-1];
     document.getElementById("carouseltext").innerText=carouseltext[carouselcurrent-1];
+    const links = document.querySelectorAll('.lien-article');
+    links.forEach(link => {
+      link.href=carousellink[carouselcurrent-1];
+    });
   }
 
   function carouselAfter() {
@@ -193,6 +206,10 @@
     document.getElementById("carouselimg").src="public/img/preview_article"+carouselcurrent+".webp";
     document.getElementById("carouseltitle").innerText=carouseltitle[carouselcurrent-1];
     document.getElementById("carouseltext").innerText=carouseltext[carouselcurrent-1];
+    const links = document.querySelectorAll('.lien-article');
+    links.forEach(link => {
+      link.href=carousellink[carouselcurrent-1];
+    });
   }
 </script>
 
