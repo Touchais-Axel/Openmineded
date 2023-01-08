@@ -149,7 +149,7 @@ margin-bottom: 4rem;
 display: block;
 top: 650px;
 position: absolute;
-z-index: 55;
+z-index: 5;
 margin-left: 132px;
 
 }
@@ -216,10 +216,7 @@ font-style: italic;
   margin-top: 160px;
 }
 
-.bubble {
-  position: absolute;
-  z-index: -1;
-}
+
 
 /* Mémoire sémantique */
 

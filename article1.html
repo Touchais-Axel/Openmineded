@@ -20,41 +20,102 @@
       </div>
   </header>
 
-  <div class="navigation">
-  <nav>
-      <ul class="bar-menu">
-        <li>
-          <a href="mémoire-sémantique.html#glossaire">
-            <img src="public/icons/bonus.png" alt="icône de bous">
-            <span class="name">BONUS</span></a>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="public/icons/articles.png" alt="icône des articles">
-            <span class="name">ARTICLES</span></a>
-          </a>
-        </li>
-        <li>
-          <a href="index.html">
-            <img src="public/icons/home.png" class="home-btn" alt="icône de l'accueil">
-          </a>
-        </li>
-        <li>
-          <a href="contact.html">
-            <img src="public/icons/contact.png" alt="icône de contact">
-            <span class="name">CONTACT</span></a>
-          </a>
-        </li>
-        <li>
-          <a href="autres-projets.html">
-            <img src="public/icons/projets.png" alt="icône des autres projets">
-            <span class="name">PROJETS</span></a>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    </div>
+  <nav class="navigation">
+    <ul class="bar-menu">
+      <li>
+        <a href="mémoire-sémantique.html#glossaire">
+          <img src="public/icons/bonus.png" alt="icône de bous">
+          <span class="name">BONUS</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <img src="public/icons/articles.png" alt="icône des articles" class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+         <nav class="menu">
+            <section class="carousel">
+              <div class="carousel__viewport">
+                <li class="carousel__slide">
+                  <a href="article1.html">
+                  <div>
+                      <img src="public/img/img_article1.webp" class="img-caroussel-menu" >
+                      <span class="name-carousel-menu">L’internat, une prison… de bons souvenirs</span>
+                  </div>
+                </a>
+              </a>
+                </li>
+
+                <li class="carousel__slide">
+                  <a href="article2.html">
+                    <div>
+                      <img src="public/img/img_article2.webp" class="img-caroussel-menu" >
+                      <span class="name-carousel-menu">Népal, l’ange de la mort</span>
+                </div>
+              </a>
+                </li>
+                
+                <li class="carousel__slide">
+                  <a href="article3.html">
+                  <div>
+                      <img src="public/img/img_article3.webp" class="img-caroussel-menu" >
+                      <span class="name-carousel-menu">LEV, la solitude qui touche tout le monde</span>
+                  </div>
+                </a>
+                </li>
+
+                <li class="carousel__slide">
+                  <a href="article4.html">
+                    <div>
+                      <img src="public/img/img_article4.webp" class="img-caroussel-menu" >
+                      <span class="name-carousel-menu">One Piece, le génie d’un homme</span>
+                </div>
+                  </a>
+                  
+                </li>
+                <li class="carousel__slide">
+                  <a href="article5.html">
+                  <div>
+                    <img src="public/img/img_article5.webp" class="img-caroussel-menu" >
+                    <span class="name-carousel-menu">Les IA dans le monde créatif</span>
+                </div>
+                </a>
+
+                </li>
+                <li class="carousel__slide">
+                  <a href="article6.html">
+                   <div>
+                    <img src="public/img/img_article6.webp" class="img-caroussel-menu" >
+                    <span class="name-carousel-menu">Pour guérir l’impossible</span>
+                </div>
+                </li>  
+              </a>                
+              </div>
+          
+            </section> 
+          </nav>
+        </a>
+        <span class="name articles">ARTICLES</span>
+      </li>
+      
+      <li>
+        <a href="index.html">
+          <img src="public/icons/home.png" class="home-btn" alt="icône de l'accueil">
+        </a>
+      </li>
+      <li>
+        <a href="contact.html">
+          <img src="public/icons/contact.png" alt="icône de contact">
+          <span class="name">CONTACT</span></a>
+        </a>
+      </li>
+      <li>
+        <a href="autres-projets.html">
+          <img src="public/icons/projets.png" alt="icône des autres projets">
+          <span class="name">PROJETS</span></a>
+        </a>
+      </li>
+    </ul>
+  </nav>
     
   <main>
 
@@ -74,7 +135,6 @@
 
           <h3 class="one-line-title">Tous dans la même galère</h3>
 
-          <img src="public/img/bubble.png" class="bubble" alt="bulle violette background">
           
           <p>Je suis resté à <a href="mémoire-sémantique.html#glossaire"><span class="underline_italic">l’internat</span></a> pendant toute ma période de lycée. Au début <span class="bold">ça fait peur</span>, on voit l’internat <span class="bold">comme une prison.</span>
             La plupart des jeunes ont peur d’y aller car ils sont coupés du domaine familial, de leur confort. Si vous avez un problème, personne n’est près de vous pour vous aider. 
