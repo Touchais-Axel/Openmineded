@@ -17,28 +17,46 @@ right: 0;
 .menu-open .menu {
 visibility: visible;
 transform: translateX(0);
-height: 160px;
-top: 510px;
+height: 253px;
+top: 440px;
 background-color: #D2C6FF;
 border-radius: 20px;
 margin: 10px;
 }
 
-.bg-carousel {
-  background-color: white;
-  border-radius: 15px;
-  width: 150px;
-  margin-left: 10px;
-  margin-top: 10px;
-
-}
 
 .img-caroussel-menu {
-  margin-top: 15px;
-  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  justify-content:center ;
+  width: 140px;
   box-shadow: var(--carousel-articles-shadow);
 }
 
 .name-carousel-menu {
-margin-bottom: 20px;
+margin-top: 10px;
+text-align: center;
+margin-bottom: 25px;
 }
+
+.carousel__viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding:15px;
+  gap: 10px;
+}
+
+.carousel__slide {
+  position: relative;
+  flex: 0 0 50%;
+  height: 220px;
+  background-color: white;
+  border-radius: 20px;
+}
+
