@@ -95,7 +95,7 @@ margin-bottom: 35px;
   font-size: var(--footer-openmineded);
 }
 
-blockquote {
+figcaption {
 font-family: var(--font-mulish);
 font-weight: lighter;
 text-align: center;
@@ -205,4 +205,11 @@ font-style: italic;
 
 .one-line-title {
   margin-top: 160px;
+}
+
+/* Mémoire sémantique */
+
+.definiton {
+  margin-bottom: 30px;
+  margin-right: 40px;
 }
