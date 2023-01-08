@@ -112,7 +112,20 @@
 
   <img src="public/icons/down.svg" class="down" alt="flèche du bas" />
 
+  <div class="carouselzone">
+    <a href="#" class="lien-article"><img src="public/img/preview_article1.webp" id="carouselimg" /></a>
+    <a id="mobileNavButton" onclick="carouselBefore()">
+      <img src="public/icons/left.svg" />
+    </a>
 
+
+    <a id="mobileNavButton" onclick="carouselAfter()">
+      <img src="public/icons/right.svg" />
+    </a>
+
+    <p id="carouseltitle">Titre carousel 1</p>
+    <p id="carouseltext">Texte carousel 1</p>
+  </div>
 
   </main>
 
@@ -153,4 +166,34 @@
   </footer>
 
 </body>
+
+<script>
+  var carouselcurrent = 1;
+
+  var carouseltitle = ['Texte carousel 1', 'Texte carousel 2', 'Texte carousel 3', 'Texte carousel 4', 'Texte carousel 5', 'Texte carousel 6'];
+  var carouseltext = ['Texte carousel 1', 'Texte carousel 2', 'Texte carousel 3', 'Texte carousel 4', 'Texte carousel 5', 'Texte carousel 6'];
+
+  function carouselBefore() {
+    if (carouselcurrent > 1) {
+      carouselcurrent-=1;
+    } else {
+      carouselcurrent = 6;
+    }
+    document.getElementById("carouselimg").src="public/img/preview_article"+carouselcurrent+".webp";
+    document.getElementById("carouseltitle").innerText=carouseltitle[carouselcurrent-1];
+    document.getElementById("carouseltext").innerText=carouseltext[carouselcurrent-1];
+  }
+
+  function carouselAfter() {
+    if (carouselcurrent < 6) {
+      carouselcurrent+=1;
+    } else {
+      carouselcurrent = 1;
+    }
+    document.getElementById("carouselimg").src="public/img/preview_article"+carouselcurrent+".webp";
+    document.getElementById("carouseltitle").innerText=carouseltitle[carouselcurrent-1];
+    document.getElementById("carouseltext").innerText=carouseltext[carouselcurrent-1];
+  }
+</script>
+
 </html>

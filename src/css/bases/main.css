@@ -209,6 +209,11 @@ font-style: italic;
   margin-top: 160px;
 }
 
+.bubble {
+  position: absolute;
+  z-index: -1;
+}
+
 /* Mémoire sémantique */
 
 .definiton {
