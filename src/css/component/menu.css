@@ -7,13 +7,21 @@
 
 .navigation {
   position: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   z-index: 50;
-  background-color: #D2C6FF;
-  border-radius: 2rem;
-  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.3);
+  background-color: var(--lavender-blue);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: var(--menu-shadow);
+  margin-left: 10px;
   top: 712px;
-  margin: 0.5rem;
   height: 90px;
+  width: 355px;
+
 }
 
 
@@ -25,12 +33,17 @@
 
 
 .bar-menu {
+  justify-content: center;
+  padding-top: 11px;
+  width: 355px;
   display: flex;
-  padding: 2%;
-  gap: 3%;
-  margin-top: 1%;
+  justify-content: center;
+  gap: 12px;
+  flex-direction: row;
 }
 
+.btn-menu
+
 .icon-home {
-  width: 20rem;
+  width: 60px;
 }

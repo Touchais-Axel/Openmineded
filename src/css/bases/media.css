@@ -15,10 +15,6 @@ font-size: var(--text-sm);
 color: var(--gray-600);
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
 /* images des articles */
 
 .illustration_article {
