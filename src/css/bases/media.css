@@ -29,6 +29,7 @@ margin-bottom: 10px;
 .img_article {
   z-index: -5;
   top: 0px;
+  width: 100%;
   position: absolute;
 }
 
