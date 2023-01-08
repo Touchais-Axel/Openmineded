@@ -33,11 +33,10 @@
 
 
 .bar-menu {
-  justify-content: center;
+ margin-left: -40px;
   padding-top: 11px;
   width: 355px;
   display: flex;
-  justify-content: center;
   gap: 12px;
   flex-direction: row;
 }
@@ -45,5 +44,5 @@
 .btn-menu
 
 .icon-home {
-  width: 60px;
+  width: 0px;
 }

@@ -9,30 +9,32 @@
 --violet-bouton-dark: rgba(91, 73, 161, 1);
 
 /* Text-size styles */
---h2-bold: 25px;
---h3-bold: 20px;
---btn-next: 20px;
---body-text-regular: 16px;
---body-text-light: 16px;
---intro-light-italic: 14px;
---footer-createur: 13px;
---footer-legal: 12px;
---footer-droits: 10px;
---legend: 14px;
---home-site-description: 16px;
---liste-article-caroussel: 14px;
---hard-word: 16px;
---body-citations: 16px;
---menu-btn: 12px;
---mosquito-title: 18px;
---footer-openmineded: 15px;
---home-openmineded: 40px;
---home-bienvenue: 25px;
---form-obligatoire: 12px;
---form-title: 14px;
---glossary-name: 16px;
---glossary-def: 16px;
---body-text-bold: 16px;
+/* base size: body-text-regular (16px) */
+--h2-bold: 1.56rem;
+--h3-bold: 1.25rem;
+--btn-next: 1.25rem;
+--body-text-regular: 1rem;
+--body-text-light: 1rem;
+--intro-light-italic: 0.875rem;
+--footer-createur: 0.81rem;
+--footer-legal: 0.75rem;
+--footer-droits: 0.62rem;
+--legend: 0.88rem;
+--home-site-description: 1rem;
+--liste-article-caroussel: 0.88rem;
+--hard-word: 1rem;
+--body-citations: 1rem;
+--menu-btn: 0.75rem;
+--mosquito-title: 1.12rem;
+--footer-openmineded: 0.94rem;
+--home-openmineded: 2.5rem;
+--home-bienvenue: 1.56rem;
+--form-obligatoire: 0.75rem;
+--form-title: 0.88rem;
+--glossary-name: 1rem;
+--glossary-def: 1rem;
+--body-text-bold: 1rem;
+
 
 /* Polices de caractère */
 --font-inter: 'Inter';

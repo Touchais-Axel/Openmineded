@@ -15,44 +15,46 @@
 
   <header class="header_fr">
       <div class="bar">
-          <img src="public/icons/moon-dark.svg" alt="logo dark mode" />
-          <img src="public/icons/en-dark.svg" alt="mode anglais" />  
+          <img src="public/icons/moon-dark.png" class="btn-header" alt="logo dark mode" />
+          <img src="public/icons/en-dark.png" class="btn-header" alt="mode anglais" />  
       </div>
   </header>
 
-  <nav class="navigation navigation--inline">
-      <ul class="bar-menu">
-        <li>
-          <a href="mémoire-sémantique.html">
-            <img src="public/icons/bonus.png" alt="icône de bous">
-            <span class="name">Bonus</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="public/icons/articles.png" alt="icône des articles">
-            <span class="name">Articles</span>
-          </a>
-        </li>
-        <li>
-          <a href="index.html">
-            <img src="public/icons/home.png" class="icon-home" alt="icône de l'accueil">
-          </a>
-        </li>
-        <li>
-          <a href="contact.html">
-            <img src="public/icons/contact.png" alt="icône de contact">
-            <span class="name">Contact</span>
-          </a>
-        </li>
-        <li>
-          <a href="autres-projets.html">
-            <img src="public/icons/projets.png" alt="icône des autres projets">
-            <span class="name">Projets</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
+  <div class="navigation">
+    <nav>
+        <ul class="bar-menu">
+          <li class="btn-menu">
+            <a href="mémoire-sémantique.html">
+              <img src="public/icons/bonus.png" alt="icône de bous">
+              <span class="name">Bonus</span>
+            </a>
+          </li>
+          <li class="btn-menu">
+            <a href="#">
+              <img src="public/icons/articles.png" alt="icône des articles">
+              <span class="name">Articles</span>
+            </a>
+          </li>
+          <li class="icon-home">
+            <a href="index.html">
+              <img src="public/icons/home.png" alt="icône de l'accueil">
+            </a>
+          </li>
+          <li class="btn-menu">
+            <a href="contact.html">
+              <img src="public/icons/contact.png" alt="icône de contact">
+              <span class="name">Contact</span>
+            </a>
+          </li>
+          <li class="btn-menu">
+            <a href="autres-projets.html">
+              <img src="public/icons/projets.png" alt="icône des autres projets">
+              <span class="name">Projets</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
 
   <main>
 
@@ -64,14 +66,14 @@
 
           <h2>Les IA dans le monde créatif</h2>
 
-          <p>Il y a quelques temps dans le Colorado, Jason Allen remportait le concours d’art du Space Opera Theatre dans la catégorie Art numérique. 
+          <p class="intro-article">Il y a quelques temps dans le Colorado, Jason Allen remportait le concours d’art du Space Opera Theatre dans la catégorie Art numérique. 
             Cependant, le tableau qu’il a proposé était en fait la création d’une IA. Certains disent que c'est un grand pas en avant, d'autres s'en offusquent. 
             Dans cet article je vais donner mon avis.</p>
           
 
-          <img src="public/icons//down-2.svg" class="down" alt="flèche du bas">
+          <img src="public/icons/down-2.svg" class="down" alt="flèche du bas">
 
-          <h3>Un chef-d’oeuvre avec quelques mots</h3>
+          <<h3 class="two-lines-title">>Un chef-d’oeuvre avec quelques mots</h3>
 
           <p>Les trois illustrations de Jason Allen, y compris celle qui a <span class="bold">remporté le concours</span>, ont été générées par <span class="underline_italic">l'intelligence artificielle</span> de Midjourney, 
             qui peut créer des images <span class="bold">à partir de zéro</span> avec <span class="bold">seulement quelques mots-clés</span>, <span class="underline_italic">rapporte Vice</span>.</p>
@@ -102,7 +104,7 @@
           <div class="button_article">
               <a href="article6.html">
                   <button class="proposition_article">
-                      <h4>LIRE L'ARTICLE</h4>
+                      <p class="btn-article">LIRE L'ARTICLE</h4>
                   </button>
               </a>
           </div>

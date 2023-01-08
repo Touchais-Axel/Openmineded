@@ -11,3 +11,7 @@
   display: flex;
   gap: 235px;
 }
+
+.btn-header {
+  max-width: 38px;
+}
