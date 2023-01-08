@@ -20,6 +20,7 @@ body {
 }
 
 p {
+line-height: 1.2;
 font-family: var(--font-mulish);
 font-size: var(--body-text-regular);
 font-weight: normal;
@@ -155,9 +156,10 @@ margin-left: 132px;
 }
 
 .down2 {
+  position: absolute;
   display: block;
   top: 650px;
-  margin:auto;
+  margin-left:167px;
   
   }
 
@@ -191,7 +193,7 @@ padding-left: 20px;
 border-radius: 20px;
 box-shadow: var(--shadow-button-next-wm);
 border: none;
-margin-left: 87px;
+margin-left: 80px;
 }
 
 .btn-article {
@@ -227,4 +229,5 @@ font-style: italic;
 
 .title_others_pages {
   margin-top: 100px;
+  margin-bottom: 50px;
 }

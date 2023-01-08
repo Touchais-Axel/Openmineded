@@ -30,18 +30,21 @@ input {
 }
 
 .bouton-envoyer {
-  padding-right: 12%;
-  padding-left: 12%;
-  padding-top: 5%;
+  padding-right: 33px;
+  padding-left: 33px;
+  padding-top: 15px;
   padding-bottom: 5%;
+  font-family: var(--font-montserrat);
+  font-weight: 700;
   text-align: center;
-  color: black;
-  background-color: #D2C6FF;
+  color: var(--black-impure);
+  background-color: var(--lavender-blue);
   border: none;
-  box-shadow: var(--shadow-button);
+  box-shadow: var(--shadow-button-next-wm);
   font-family: 'mulish';
-  margin-left: 4.3rem;
-  border-radius: 0.2rem;
+  margin-left: 75px;
+  margin-bottom: 100px;
+  border-radius: 5px;
 }
 
 
